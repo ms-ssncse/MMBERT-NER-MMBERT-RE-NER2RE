@@ -1,8 +1,8 @@
 MMBERT-NER:
 DATASETS: 
-* Download Twitter-2015 dataset from https://qizhang.info/paper/data/aaai2018_multimodal_NER_data.zip to resources/datasets/twitter2015
+* Download Twitter-2015 dataset from https://github.com/jefferyYu/UMT?tab=readme-ov-file to resources/datasets/twitter2015
 
-* Download text-image relationship dataset from https://github.com/danielpreotiuc/text-image-relationship to resources/datasets/relationship
+* Download text-image relationship dataset from https://github.com/thecharm/MNRE to resources/datasets/relationship
 
 MODELS:
 * Download ResNet-101 weights from https://download.pytorch.org/models/resnet101-63fe2227.pth to resources/models/cnn/resnet101.pth
@@ -71,3 +71,4 @@ ROLE OF IMAGES IN PERFORMANCE ANALYSIS(Distilbert):
 STEPS TO RUN ner_tagging.py:
 * Run mnre_sentences.py to extract the sentences from the NER2RE dataset
 * Give output text file of mnre_sentences.py as input to ner_tagging.py
+
